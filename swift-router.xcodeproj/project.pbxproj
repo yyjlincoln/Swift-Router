@@ -13,6 +13,7 @@
 		7A8D340225C5751000B7D201 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A8D340125C5751000B7D201 /* Preview Assets.xcassets */; };
 		7A8D340D25C5751000B7D201 /* swift_routerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D340C25C5751000B7D201 /* swift_routerTests.swift */; };
 		7A8D341825C5751000B7D201 /* swift_routerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D341725C5751000B7D201 /* swift_routerUITests.swift */; };
+		7A8D342925C5755400B7D201 /* SwiftRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A8D342825C5755400B7D201 /* SwiftRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		7A8D341325C5751000B7D201 /* swift-routerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-routerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A8D341725C5751000B7D201 /* swift_routerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_routerUITests.swift; sourceTree = "<group>"; };
 		7A8D341925C5751000B7D201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8D342825C5755400B7D201 /* SwiftRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				7A8D33FA25C5750F00B7D201 /* swift_routerApp.swift */,
 				7A8D33FC25C5750F00B7D201 /* ContentView.swift */,
+				7A8D342825C5755400B7D201 /* SwiftRouter.swift */,
 				7A8D33FE25C5751000B7D201 /* Assets.xcassets */,
 				7A8D340325C5751000B7D201 /* Info.plist */,
 				7A8D340025C5751000B7D201 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A8D342925C5755400B7D201 /* SwiftRouter.swift in Sources */,
 				7A8D33FD25C5750F00B7D201 /* ContentView.swift in Sources */,
 				7A8D33FB25C5750F00B7D201 /* swift_routerApp.swift in Sources */,
 			);
