@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct swift_routerApp: App {
+struct ApplicationEntry: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
