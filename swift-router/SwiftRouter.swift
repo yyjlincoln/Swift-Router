@@ -37,9 +37,11 @@ class SwiftRouter{
     private var errorroute: String?
     private var current: SwiftRouterRoute?
     
-    public init(routes: [SwiftRouterRoute], RouterView : Binding<RouterResponder?>){
+    public init(routes: [SwiftRouterRoute] = [SwiftRouterRoute(name: "error", view: AnyView(SwiftRouterCriticalErrorView(message: "SwiftRouter Default Error Page: An error occured. Did you define 'routes' when init? Does the destination route exist?")))], RouterView : Binding<RouterResponder?>, defaultroute: String? = nil, errorroute: String? = "error"){
         self.routes = routes
         self._RouterView = RouterView
+        self.errorroute = errorroute
+        self.defaultroute = defaultroute
 
         // Default route
         if self.defaultroute != nil {

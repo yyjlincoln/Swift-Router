@@ -21,9 +21,7 @@ struct ContentView: View {
                 RouterView!()
             }
         }.onAppear(perform: {
-            self.router = SwiftRouter(routes: [
-                
-            ], RouterView: $RouterView)
+            self.router = SwiftRouter(RouterView: $RouterView)
             self.router?.PushRoute("test")
         }).onTapGesture {
             tapcounter += 1
